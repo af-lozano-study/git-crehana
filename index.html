@@ -6,9 +6,50 @@
     <link rel="stylesheet" href="./styles/output.css" />
     <title>Document</title>
   </head>
-  <body>
-    <div class="flex flex-row h-full w-full place-content-center">
-      <div class="font-extrabold text-red-800">Curso Git</div>
+  <body class="bg-slate-200">
+    <div
+      class="flex flex-col h-[100vh] w-[100vh] place-content-center items-center"
+    >
+      <div class="text-[50px] text-blue-950">Tienda Git</div>
+      <a href="#creador">Dueño</a>
+      <a href="#productos">Productos</a>
+    </div>
+    <div id="creador" class="h-[100vh] flex items-center">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg/330px-LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg"
+      />
+    </div>
+    <div
+      id="productos"
+      class="min-h-[100vh] place-content-around flex flex-row flex-wrap"
+    >
+      <div
+        class="w-1/3 m-2 border-2 border-sky-800 h-min flex flex-row rounded-lg shadow-xl"
+      >
+        <img
+          class="h-[200px]"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Heckert_GNU_white.svg/183px-Heckert_GNU_white.svg.png"
+        />
+        <div class="font-bold grow">$999,999</div>
+      </div>
+      <div
+        class="w-1/3 m-2 border-2 border-sky-800 h-min flex flex-row rounded-lg shadow-xl"
+      >
+        <img
+          class="h-[200px]"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png"
+        />
+        <div class="font-bold grow">$999,999</div>
+      </div>
+      <div
+        class="w-1/3 m-2 border-2 border-sky-800 h-min flex flex-row rounded-lg shadow-xl"
+      >
+        <img
+          class="h-[200px]"
+          src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png"
+        />
+        <div class="font-bold grow">$999,999</div>
+      </div>
     </div>
   </body>
 </html>
